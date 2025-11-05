@@ -9349,6 +9349,16 @@ textarea.form-control-lg {
   }
   .d-lg-none {
     display: none !important;
+    .btn-primary {
+  background: linear-gradient(90deg, #ff6f61, #ffcc33);
+  border: none;
+  transition: transform 0.2s, background 0.4s;
+}
+.btn-primary:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ffcc33, #ff6f61);
+}
+
   }
   .flex-lg-fill {
     flex: 1 1 auto !important;
